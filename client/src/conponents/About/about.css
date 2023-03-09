@@ -1,0 +1,32 @@
+.about__section {
+  text-align: center;
+}
+
+.about__container {
+  padding:0 2rem;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.about__content {
+  margin: 2rem 0 4rem;
+}
+
+.about__image__container {
+  margin-top: 10rem;
+}
+
+
+/*============================================= Media Query =============================================*/
+
+@media screen and (max-width: 576px) {
+  .about__title{
+    font-size: 1.4rem;
+  }
+
+  .about__content{
+    font-size: 1rem;
+  }
+}

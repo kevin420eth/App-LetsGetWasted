@@ -1,0 +1,176 @@
+/*=============== Google Font ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*=============== Customized CSS Variables ===============*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+
+  /*1rem = 16px ...*/
+  /*fs means font size*/
+  --big-fs: 3.5rem;
+  --h1-fs: 2.25rem;
+  --h2-fs: 1.5rem;
+  --h3-fs: 1.25rem;
+  --normal-fs: 1rem;
+  --small-fs: 0.875rem;
+  --tiny-fs: 0.625rem;
+
+  /*========== Font Weight ==========*/
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margin ==========*/
+  /*1rem = 16px, d means dot*/
+  --mg-d25: 0.25rem;
+  --mg-d5: 0.5rem;
+  --mg-d75: 0.75rem;
+  --mg-1: 1rem;
+  --mg-1d5: 1.5rem;
+  --mg-2: 2rem;
+  --mg-2d5: 2.5rem;
+  --mg-3: 3rem;
+
+  /*========== Rookie's border ==========*/
+  --rk: 2px solid black;
+}
+
+/*============================================= Base Elements =============================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--h3-fs);
+}
+
+body {
+  background-color: var(--body-color);
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*========================================= Reuseable CSS Class ==========================================*/
+.section {
+  padding: 6rem 0 2rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 4rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+/*=============== Layout ===============*/
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/*=============== Button ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--title-color-dark);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+/*============================================= Media Query =============================================*/
+
+/* Responsive Ttypography */
+@media screen and (max-width: 992px) {
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .button {
+    padding: 1rem 1.75rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}

@@ -1,0 +1,48 @@
+.QA__section {
+  background-color: rgb(255, 214, 56, 70%);
+  padding-bottom: 4rem;
+}
+
+.qa__container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0 2rem;
+}
+
+.qa__title {
+  text-align: center;
+}
+
+.qa__content {
+  margin-top: 2rem;
+}
+
+.faq-body {
+  border-bottom: 3.5px solid black;
+  border-radius: 2.2rem;
+}
+
+.faq-row {
+  background-color: rgb(255, 255, 255);
+  border: 3.5px solid black;
+  border-radius: 2rem;
+  padding-left: 10px;
+}
+
+.row-title {
+  margin-left: 10px;
+}
+
+.row-content {
+  padding: 0 10px;
+}
+
+/*============================================= Media Query =============================================*/
+
+@media screen and (max-width: 768px) {
+  .--row-title-text-size{
+    font-size: 1px;
+    color: red;
+  }
+}

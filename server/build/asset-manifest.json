@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1cda2c0.css",
+    "main.js": "/static/js/main.f5f17795.js",
+    "static/media/wasted-8.png": "/static/media/wasted-8.a741ad893283adc0973e.png",
+    "static/media/wasted-7.png": "/static/media/wasted-7.d093d5c19f4fd00a0e34.png",
+    "static/media/wasted-4.png": "/static/media/wasted-4.79f420777cebb0e34ce5.png",
+    "static/media/wasted-6.png": "/static/media/wasted-6.a1232be984522392bee7.png",
+    "static/media/wasted-3.png": "/static/media/wasted-3.5c1553708b860e1e2469.png",
+    "static/media/wasted-1.png": "/static/media/wasted-1.5facdee145030d82d6f8.png",
+    "static/media/wasted-5.png": "/static/media/wasted-5.037bf2de95fbe7c8c165.png",
+    "static/media/wasted-2.png": "/static/media/wasted-2.9c7ba73bb094b269c49f.png",
+    "static/media/logo-twitter.png": "/static/media/logo-twitter.89d4a3b71f7ba90a3af9.png",
+    "static/media/logo-raritysniper.png": "/static/media/logo-raritysniper.2c04aa0551a26a81ae03.png",
+    "static/media/logo-opensea.png": "/static/media/logo-opensea.6d1adfc7718d36e05459.png",
+    "static/media/logo-etherscan.png": "/static/media/logo-etherscan.edbf8d5cb6b2508fc3c6.png",
+    "static/media/about__background.png": "/static/media/about__background.42901b4fb7884056301c.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.a1cda2c0.css",
+    "static/js/main.f5f17795.js"
+  ]
+}

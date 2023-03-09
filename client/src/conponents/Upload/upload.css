@@ -1,0 +1,469 @@
+.update__section {
+  background-color: rgb(255, 214, 56, 70%);
+  padding-bottom: 6rem;
+}
+
+.update__container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.opensea__page {
+  background-color: rgb(32, 34, 37);
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.opensea__navbar {
+  margin-bottom: 0.5rem;
+}
+
+.opensea__logo {
+  display: flex;
+  gap: 0.5rem;
+  color: white;
+}
+
+.opensea__logo__image {
+  width: 30px;
+}
+
+.opensea__preview__container {
+  display: flex;
+  gap: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+/*----------------Left Section----------------*/
+
+.nft__showcase {
+  background-color: rgb(38, 43, 47);
+  border-radius: 1rem;
+  width: 300px;
+  height: 300px;
+}
+
+.nft__showcase__image {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.nft__description {
+  background-color: rgb(38, 43, 47);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}
+
+.nft__description__title {
+  font-size: 0.7rem;
+}
+
+.nft__description__content__title {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.nft__description__content {
+  max-width: 280px;
+  height: 80px;
+  overflow-y: auto;
+  font-size: 0.7rem;
+}
+
+.socialmedia__link {
+  color: rgb(34, 132, 222);
+}
+
+.nft__description__check {
+  color: rgb(34, 132, 222);
+}
+
+/*----------------Right Section----------------*/
+
+.collection__name {
+  color: rgb(34, 132, 222);
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.nft__title {
+  max-width: 300px;
+  height: 2.5rem;
+  overflow: auto;
+}
+
+.nft__title h3 {
+  color: white;
+}
+
+.nft__owner {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.nft__owner span {
+  color: rgb(34, 132, 222);
+}
+
+.nft__reaction {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.nft__price {
+  background-color: rgb(38, 43, 47);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}
+
+.sale__end__prompt {
+  font-size: 0.7rem;
+}
+
+.sale__end__countdown {
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.nft__current__price__label {
+  color: rgb(199, 199, 199);
+  font-size: 0.7rem;
+}
+
+.nft__current__price {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.nft__current__price__eth {
+  color: white;
+}
+
+.nft__current__price__usd {
+  color: rgb(199, 199, 199);
+  font-size: 0.7rem;
+}
+
+.nft__current__price__buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.add__to__cart__button {
+  background-color: rgb(34, 132, 222);
+  display: flex;
+  align-items: center;
+  border-radius: 0.3rem;
+  padding: 0.5rem 3rem;
+}
+
+.add__to__cart__button p,
+.add__to__cart__icon {
+  font-size: 0.7rem;
+}
+
+.make__offer__button {
+  background-color: rgb(34, 132, 222);
+  display: flex;
+  align-items: center;
+  border-radius: 0.3rem;
+  padding: 0.5rem 3rem;
+}
+
+.make__offer__button p,
+.make__offer__icon {
+  font-size: 0.7rem;
+}
+
+.nft__offers__list__container {
+  background-color: rgb(38, 43, 47);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}
+
+.nft__offers__list__label {
+  font-size: 0.7rem;
+}
+
+.nft__offers__list__content__data {
+  display: grid;
+  grid-template-columns: 50px 60px 100px 70px 50px;
+  font-size: 0.7rem;
+}
+
+.nft__offers__list__content__data p {
+  display: flex;
+  transform: scale(0.75);
+}
+
+.nft__offers__list__content__data .from {
+  color: rgb(34, 132, 222);
+}
+
+/*------------------------Form-------------------------*/
+
+.form__container {
+  text-align: center;
+}
+
+.form__title {
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.upload__form {
+  position: relative;
+}
+
+.form__rule {
+  position: absolute;
+  left: 170px;
+  top: 415px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.form__rule__text {
+  font-size: 0.8rem;
+  text-align: start;
+}
+
+.form__rule__text__note {
+  color: rgb(208, 52, 44);
+}
+
+input::placeholder {
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+}
+
+textarea::placeholder {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.form__input__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tokeid__input {
+  display: flex;
+  gap: 1rem;
+}
+
+.tokenid__verify__button {
+  background-color: rgb(32, 129, 226);
+  color: white;
+  font-size: 13px;
+  border: 2px solid black;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.tokenid__verify__button:hover {
+  background-color: rgb(4, 114, 224);
+  cursor: pointer;
+}
+
+.tokenid__verify__prompt {
+  color: rgb(208, 52, 44);
+  transform: scale(0.7);
+}
+
+.tokenid__verify__prompt__hide {
+  display: none;
+}
+
+.form__input__tokenid {
+  border: 1px solid;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+
+.form__input__input {
+  border: 1px solid;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+
+.form__input__step2 {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.form__input__step2__prompt {
+  color: rgb(208, 52, 44);
+  font-size: 0.8rem;
+}
+
+.form__input__step2__name {
+  width: 100px;
+}
+
+.form__input__group textarea {
+  resize: none;
+  width: 380px;
+  height: 100px;
+}
+
+.form__image__upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.form__image__upload input {
+  display: none;
+}
+
+.select__file__button__section {
+  display: flex;
+  align-items: center;
+}
+
+.select__file__button {
+  background-color: rgb(32, 129, 226);
+  border: 3.5px solid black;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.select__file__button:hover {
+  background-color: rgb(4, 114, 224);
+  cursor: pointer;
+}
+
+.form__submit__button__div {
+  display: flex;
+  justify-content: center;
+}
+
+.form__submit__button {
+  display: flex;
+  align-items: center;
+}
+
+/*Disabled CSS in upload section*/
+
+.form__input__disabled {
+  cursor: not-allowed !important;
+  background-color: rgba(221, 221, 221, 0.45);
+}
+
+.form__button__disabled {
+  cursor: not-allowed !important;
+}
+
+.tokenid__verify__button.form__button__disabled {
+  background-color: rgb(32, 129, 226);
+}
+
+.select__file__button.form__button__disabled:hover {
+  background-color: rgb(32, 129, 226);
+}
+
+.form__submit__button.form__button__disabled:hover {
+  background-color: var(--title-color);
+}
+
+/*============================================= Media Query =============================================*/
+
+@media screen and (max-width: 1150px) {
+  .update__container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .form__image__upload {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .opensea__page {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .form__title {
+    font-size: 20px;
+  }
+
+  .form__rule {
+    left: 100px;
+    top: 324px;
+  }
+
+  .form__rule__text {
+    transform: scale(0.8);
+    font-size: 0.5rem;
+  }
+
+  .form__input__group label {
+    font-size: 10px;
+  }
+
+  .form__input__step2__socialmedia {
+    width: 180px;
+  }
+
+  .form__input__group textarea {
+    width: 300px;
+    height: 70px;
+  }
+
+  .form__image__upload {
+    font-size: 10px;
+  }
+
+  .select__file__button {
+    border: 2px solid black;
+    font-size: 10px;
+  }
+
+  .form__submit__button {
+    font-size: 10px;
+    padding: 1rem 1.6rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .update__container {
+    max-width: 300px;
+  }
+}

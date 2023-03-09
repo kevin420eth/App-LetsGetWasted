@@ -1,0 +1,161 @@
+.home__sectoin {
+  background-color: rgb(255, 214, 56, 70%);
+  padding-top: 10rem;
+}
+
+.home__container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__title {
+  color: rgb(0, 0, 0);
+  font-size: var(--h1-fs);
+  width: 550px;
+  height: 300px;
+}
+
+/*Mint button*/
+
+.mint__button__container {
+  background-color: var(--title-color);
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 211px;
+  height: 70.5px;
+  cursor: pointer;
+}
+
+.mint__button {
+  color: white;
+  font-weight: var(--font-medium);
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 31.8px;
+  z-index: 10;
+}
+
+.curtain__img {
+  position: relative;
+  bottom: -75px;
+}
+
+.mint__button__container:hover .curtain__img {
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  bottom: 0;
+}
+
+.mint__button__container:hover p {
+  color: rgb(0, 0, 0);
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+}
+
+/*Mint button end*/
+
+.mint__price__prompt {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  transform: scale(0.75);
+}
+
+.countdown__timer__time {
+  font-weight: 500;
+}
+
+.home__showcase {
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.home__showcase__image {
+  border-radius: 2rem;
+}
+
+.mint__button__container__disabled {
+  cursor: not-allowed;
+}
+
+.mint__button__container__disabled:hover .curtain__img {
+  bottom: -75px;
+}
+
+.mint__button__container__disabled:hover p {
+  color: rgb(255, 255, 255);
+}
+
+.countdown__timer__disabled {
+  display: none;
+}
+
+/*============================================= Media Query =============================================*/
+
+@media screen and (max-width: 992px) {
+  .home__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__content {
+    margin-bottom: 2rem;
+  }
+
+  .home__title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .home__showcase {
+    width: 350px;
+    height: 350px;
+  }
+
+  .home__title {
+    width: 350px;
+    height: 200px;
+    font-size: 1.5rem;
+  }
+
+  .mint__button__container {
+    width: 173px;
+    height: 56px;
+  }
+
+  .mint__button {
+    font-size: 1rem;
+    margin-top: 16px;
+    margin-left: 27px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .home__title {
+    width: 300px;
+    height: 150px;
+    font-size: 1.2rem;
+  }
+
+  .home__showcase {
+    width: 300px;
+    height: 300px;
+  }
+}
